@@ -1,3 +1,17 @@
+# Fork
+This fork update Android suport to Androidx Libery
+
+# enable AndroidX by setting the following preference in your config.xml
+    <preference name="AndroidXEnabled" value="true" />
+    
+# enable Kotlin by setting the following preference in your config.xml
+    <preference name="GradlePluginKotlinEnabled" value="true" />
+    <preference name="GradlePluginKotlinCodeStyle" value="official" />
+    <preference name="GradlePluginKotlinVersion" value="1.3.50" />
+
+## Installation
+    cordova plugin add https://github.com/yfz34/cordova-plugin-measure
+
 # cordova-plugin-measure
 
 Cordova plugin using ARKit(iOS) and ARCore(Android) to calculate distance of real world objects
@@ -7,11 +21,8 @@ Kotlin(Android) original measure project: https://github.com/Terran-Marine/ARCor
 
 ## Supported Platforms
 
-- iOS (Requires ARKit support iOS 11.3+)
+- iOS (Requires ARKit support iOS 11.3+) should at xcode setting ios target
 - Android (See devices supported: https://developers.google.com/ar/discover/supported-devices)
-
-## Installation
-    cordova plugin add cordova-plugin-measure
 
 ## Methods
 - cordova.plugins.measure.start
