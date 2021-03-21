@@ -1,13 +1,5 @@
-# Fork
-This fork update Android suport to Androidx Libery
-
-# enable AndroidX by setting the following preference in your config.xml
-    <preference name="AndroidXEnabled" value="true" />
-    
-# enable Kotlin by setting the following preference in your config.xml
-    <preference name="GradlePluginKotlinEnabled" value="true" />
-    <preference name="GradlePluginKotlinCodeStyle" value="official" />
-    <preference name="GradlePluginKotlinVersion" value="1.3.50" />
+# Notify
+This fork update Android.suport to Androidx Libery
 
 ## Installation
     cordova plugin add https://github.com/yfz34/cordova-plugin-measure
@@ -22,7 +14,16 @@ Kotlin(Android) original measure project: https://github.com/Terran-Marine/ARCor
 ## Supported Platforms
 
 - iOS (Requires ARKit support iOS 11.3+) should at xcode setting ios target
-- Android (See devices supported: https://developers.google.com/ar/discover/supported-devices)
+- Android (cordova-android@9)
+- (See devices supported: https://developers.google.com/ar/discover/supported-devices)
+
+## enable AndroidX by setting the following preference in your config.xml
+    <preference name="AndroidXEnabled" value="true" />
+    
+## enable Kotlin by setting the following preference in your config.xml
+    <preference name="GradlePluginKotlinEnabled" value="true" />
+    <preference name="GradlePluginKotlinCodeStyle" value="official" />
+    <preference name="GradlePluginKotlinVersion" value="1.3.50" />
 
 ## Methods
 - cordova.plugins.measure.start
