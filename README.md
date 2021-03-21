@@ -8,8 +8,8 @@ This fork update Android.suport to Androidx Libery
 
 Cordova plugin using ARKit(iOS) and ARCore(Android) to calculate distance of real world objects
 
-Swift(iOS) original measure project: https://github.com/levantAJ/Measure
-Kotlin(Android) original measure project: https://github.com/Terran-Marine/ARCoreMeasuredDistance
+- Swift(iOS) original measure project: https://github.com/levantAJ/Measure
+- Kotlin(Android) original measure project: https://github.com/Terran-Marine/ARCoreMeasuredDistance
 
 ## Supported Platforms
 
