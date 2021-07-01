@@ -23,7 +23,7 @@ Cordova plugin using ARKit(iOS) and ARCore(Android) to calculate distance of rea
 ## enable Kotlin by setting the following preference in your config.xml
     <preference name="GradlePluginKotlinEnabled" value="true" />
     <preference name="GradlePluginKotlinCodeStyle" value="official" />
-    <preference name="GradlePluginKotlinVersion" value="1.3.50" />
+    <preference name="GradlePluginKotlinVersion" value="1.3.61" />
 
 ## Methods
 - cordova.plugins.measure.start
